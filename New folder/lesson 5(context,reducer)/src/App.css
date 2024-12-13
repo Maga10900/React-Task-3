@@ -1,0 +1,159 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+header{
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+ 
+footer{
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+ 
+main{
+  margin-bottom: auto;
+}
+ 
+.services-list{
+  margin-top: 20px;
+}
+ 
+.services-list ul{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+  gap: 30px 30px;
+}
+ 
+.services-list ul li{
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+ 
+form{
+  margin: auto;
+  margin-top: 40px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ 
+.hide{
+  display: none;
+}
+ 
+.services-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.services-item-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+ 
+.services-item-content p {
+  margin: 5px 0 0;
+  color: #777;
+}
+ 
+.services-item-actions .btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background 0.3s;
+}
+ 
+.services-item-actions .btn.delete {
+  background: #ff6b6b;
+  color: white;
+}
+ 
+.services-item-actions .btn.add {
+  background: #4caf50;
+  color: white;
+}
+ 
+.services-item-actions .btn.edit {
+  background: #2196f3;
+  color: white;
+}
+ 
+.services-item-actions .btn:hover {
+  opacity: 0.9;
+}
+ 
+ 
+.services {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ 
+.services-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+ 
+.services-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ 
+.services-search {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+ 
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+ 
+.services-list li {
+  margin-bottom: 20px;
+}
